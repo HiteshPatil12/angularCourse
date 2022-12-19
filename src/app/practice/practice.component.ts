@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./practice.component.css']
 })
 export class PracticeComponent {
-
+  age = 100;
 }

@@ -1,3 +1,25 @@
-p{
-    color: chocolate;
+.stock-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    }
+.stock-container .name h3, .stock-container .name h4 {
+display: inline-block;
+}
+.positive{
+    color: rgb(0, 172, 72);
+}
+.negative{
+    color: #f33f3f
+}
+.priceTag{
+    font-size: large;
+    font-weight: 600;
+}
+.fav{
+    color: darkorange;
+}
+.notFav{
+    color: black;
 }
